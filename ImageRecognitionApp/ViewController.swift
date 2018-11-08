@@ -19,11 +19,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
         self.imagePicker.delegate=self;
         self.imagePicker.sourceType = .camera;
         self.imagePicker.allowsEditing=false;
-        
     }
 
     override func didReceiveMemoryWarning() {
